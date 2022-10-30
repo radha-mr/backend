@@ -1,10 +1,9 @@
 ## Natflix_Backend
 ## Before Setup
-In order to connect your frontend with our backend, you need to follow these instructions. Install the latest Node.js LTS version. Link here Clone the server repository. Git repository link Run npm install in the project root directory. Run npm run start to start the server. 
-
+clone the repository and open in intellJ and run the application
 ## Run
-In VSC editor open the path where the file is located  for frontend and
-
+Front end repository clone and open in 
+In VSC editor open the path where the file is located  for frontend
 npm install ( in VSC) then npm start.
 
 Same time open the code for backend which is provided in this repository and download and open in IntellJ and run the application.
