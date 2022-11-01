@@ -7,11 +7,15 @@ In VSC editor open the path where the file is located  for frontend
 npm install ( in VSC) then npm start.
 
 Same time open the code for backend which is provided in this repository and download and open in IntellJ and run the application.
-the jar file also included in the target  folder. currently running with IntellJ run version.
+the jar file also included in the target  folder. currently running with IntellJ run version. to run from jar file .Type mvn clean package install then jar file will be created inside target folder.
  To run the Jar file in commandprompt(cmd) using java -jar (filename).jar  
  in my case java -jar demo-0.0.1-SNAPSHOT.jar
 ( pls check the port are mentioned in both proxy in frontend-- package.json file and also in application.properties in resource folder in backend.
 The complete application run in http:localhost:3000
+
+
+The database ( the exported table )is provided inside resource folder under src/main/resources/db/natflix.sql  (I also added some insert query in the data.sql in the same location)
+Import this table into your local mySqlworkbench then you can run the application.
 
 ## Details/Plan
 A document for Project Management about all set up and runing and outcome , screenshots and also diagrams for more understanding is provided . https://1drv.ms/w/s!Amn1Ate5iEpjfljuqPzm5GuWO-Q?e=8dFPli This is a project of making a moke of Netflix.
