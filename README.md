@@ -3,7 +3,7 @@
 clone the repository and open in intellJ and run the application
 ## Run
 
-The database ( the exported table )is provided inside resource folder under src/main/resources/db/natflix.sql  (I also added some insert query in the data.sql in the same location)
+The database ( the exported table )is provided inside resource folder under src/main/resources/db/natflix.sql  
 Import natflix.sql into your local mySqlworkbench then you can run the application.(the images are placed inside src/main/resources/static) 
 
 Front end repository clone and open in 
