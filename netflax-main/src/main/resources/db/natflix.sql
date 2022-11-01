@@ -1,3 +1,5 @@
+create database natflix;
+use natflix;
 -- MySQL dump 10.13  Distrib 8.0.30, for macos12 (x86_64)
 --
 -- Host: localhost    Database: natflix
