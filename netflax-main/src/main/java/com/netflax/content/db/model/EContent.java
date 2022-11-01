@@ -10,7 +10,7 @@ public class EContent {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private long contentId;
-
+@Column(name="title")
     private String title;
 
     @Column(name = "type_id")
@@ -18,13 +18,17 @@ public class EContent {
 
     @Column(name = "category_id")
     private int categoryId;
+    @Column(name="summary")
     private String summary;
-
+    @Column(name="logo_url")
     private String logoUrl;
+    @Column(name="banner_url")
 
     private String bannerUrl;
+    @Column(name="thumbnail_url")
 
     private String thumbnailUrl;
+    @Column(name="status")
     private String status;
 
     public EContent() {

@@ -21,7 +21,7 @@ public class EDetailsSeries {
 
     @Column(name = "series_title")
     private String seriesTitle;
-
+@Column(name = "summary")
     private String summary;
 
     @Column(name = "thumbnail_url")
