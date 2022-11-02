@@ -4,7 +4,8 @@ clone the repository and open in intellJ and run the application
 ## Run
 
 The database ( the exported table )is provided inside resource folder under src/main/resources/db/natflix.sql  
-Import natflix.sql into your local mySqlworkbench then you can run the application.(the images are placed inside src/main/resources/static) 
+Import natflix.sql into your local mySqlworkbench then you can run the application.(the images are placed inside src/main/resources/static)  
+You may need to add you root password in application properties.
 
 Front end repository clone and open in 
 In VSC editor open the path where the file is located  for frontend
